@@ -3,8 +3,8 @@
     <!-- Page Header -->
     <div class="page-header row no-gutters py-4">
       <div class="col-12 col-sm-4 text-center text-sm-left mb-0">
-        <span class="text-uppercase page-subtitle">Preview</span>
-        <h3 class="page-title">Import Feedback</h3>
+        <span class="text-uppercase page-subtitle">预览</span>
+        <h3 class="page-title">导入Feedback</h3>
       </div>
     </div>
     <d-alert

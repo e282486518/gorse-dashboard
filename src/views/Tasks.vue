@@ -4,7 +4,7 @@
     <div class="page-header row no-gutters py-4">
       <div class="col-12 col-sm-4 text-center text-sm-left mb-0">
         <span class="text-uppercase page-subtitle">Overview</span>
-        <h3 class="page-title">Tasks</h3>
+        <h3 class="page-title">任务</h3>
       </div>
     </div>
 
@@ -13,7 +13,7 @@
       <div class="col">
         <div class="card card-small mb-4">
           <div class="card-header border-bottom">
-            <h6 class="m-0">All Tasks</h6>
+            <h6 class="m-0">所有任务</h6>
           </div>
           <div class="card-body p-0 pb-3">
             <table class="table mb-0">

@@ -60,9 +60,9 @@
                   <td>{{ format_date_time(user.LastUpdateTime) }}</td>
                   <td>
                     <d-button-group>
-                      <d-button size="small" outline @click="list_user_neighbors(user.UserId)">Neighbors</d-button>
-                      <d-button size="small" outline @click="list_user_recommend(user.UserId)">Insight</d-button>
-                      <d-button size="small" theme="danger" outline @click="open_delete_user_dialog(user.UserId)">Delete</d-button>
+                      <d-button size="small" outline @click="list_user_neighbors(user.UserId)">近邻推荐</d-button>
+                      <d-button size="small" outline @click="list_user_recommend(user.UserId)">内容推荐</d-button>
+                      <d-button size="small" theme="danger" outline @click="open_delete_user_dialog(user.UserId)">删除</d-button>
                     </d-button-group>
                   </td>
                 </tr>

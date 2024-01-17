@@ -10,7 +10,7 @@
 
     <d-row>
       <d-col lg="6" md="12" sm="12" class="mb-4">
-        <bo-top-items :title="'Positive Feedback'" :items="feedback"/>
+        <bo-top-items :title="'正反馈'" :items="feedback"/>
       </d-col>
 
       <d-col lg="6" md="12" sm="12" class="mb-4">
