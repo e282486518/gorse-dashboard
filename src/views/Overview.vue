@@ -4,7 +4,7 @@
     <d-row no-gutters class="page-header py-4">
       <d-col col sm="4" class="text-center text-sm-left mb-4 mb-sm-0">
         <span class="text-uppercase page-subtitle">Dashboard</span>
-        <h3 class="page-title">Overview</h3>
+        <h3 class="page-title">概览</h3>
       </d-col>
     </d-row>
 
@@ -25,10 +25,10 @@
     <d-row>
       <d-col lg="7" md="12" sm="12" class="mb-4">
         <d-tabs>
-          <d-tab title="Popular Items" active>
+          <d-tab title="热门Items" active>
             <bo-top-items :api="'/api/dashboard/popular/'" />
           </d-tab>
-          <d-tab title="Latest Items">
+          <d-tab title="最新Items">
             <bo-top-items :api="'/api/dashboard/latest/'" />
           </d-tab>
         </d-tabs>

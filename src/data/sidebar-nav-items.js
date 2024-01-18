@@ -13,12 +13,12 @@ export default function () {
       name: 'tasks',
     },
   }, {
-    title: '集群',
+/*    title: '集群',
     htmlBefore: '<i class="material-icons">dns</i>',
     to: {
       name: 'cluster',
     },
-  }, {
+  }, {*/
     title: '用户',
     htmlBefore: '<i class="material-icons">person</i>',
     to: {
