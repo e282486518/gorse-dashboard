@@ -16,13 +16,10 @@
 <script>
 const defaultMenuItems = [{
   title: 'Home',
-  to: 'https://gorse.io/',
-}, {
-  title: 'GitHub',
-  to: 'https://github.com/gorse-io/gorse',
+  to: 'http://www.imhaigui.com/',
 }, {
   title: 'Document',
-  to: 'https://gorse.io/docs',
+  to: 'http://doc.imhaiguiapp.com',
 }, {
   title: 'API',
   to: '/apidocs/',
@@ -45,7 +42,7 @@ export default {
        */
     copyright: {
       type: String,
-      default: 'Copyright © 2021 zhenghaoz',
+      default: 'Copyright © 2024 imhaigui',
     },
     /**
        * Whether the footer should be wrapped in a container, or not.
