@@ -12,7 +12,7 @@
       <div class="col">
         <div class="card card-small mb-4">
           <div class="card-header border-bottom">
-            <h6 class="m-0">Information</h6>
+            <h6 class="m-0">字段信息</h6>
           </div>
           <div class="card-body p-0 pb-3">
             <d-list-group flush>
@@ -72,7 +72,7 @@
       <div class="col">
         <div class="card card-small mb-4">
           <div class="card-header border-bottom">
-            <h6 class="m-0">Related Items</h6>
+            <h6 class="m-0">相关的 Items</h6>
           </div>
           <div class="card-body border-bottom">
             <d-input-group prepend="Categories" class="mb-3">

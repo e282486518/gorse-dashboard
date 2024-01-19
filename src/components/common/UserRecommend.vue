@@ -111,11 +111,11 @@ export default {
       recommender: '_',
       category: '',
       options: [
-        { value: '_', text: 'Recommendation' },
-        { value: 'offline', text: 'Offline Recommendation' },
-        { value: 'collaborative', text: 'Collaborative Recommendation' },
-        { value: 'item_based', text: 'Item-based Recommendation' },
-        { value: 'user_based', text: 'User-based Recommendation' },
+        { value: '_', text: '推荐' },
+        { value: 'offline', text: '离线推荐' },
+        { value: 'collaborative', text: '协同推荐' },
+        { value: 'item_based', text: '基于Item的推荐' },
+        { value: 'user_based', text: '基于User的推荐' },
       ],
     };
   },

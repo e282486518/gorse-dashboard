@@ -70,17 +70,17 @@ export default {
          value: '--',
          tip: '',
        }, {
-         label: 'Total Positive',
+         label: '总正反馈数',
          value: '--',
          tip: '',
        }, {
-         label: 'Valid Positive',
+         label: '有效的正反馈数',
          value: '--',
-         tip: 'A positive feedback is valid only if this user has both positive feedback and negative feedback',
+         tip: '只有当此用户同时具有正面反馈和负面反馈时，正面反馈才有效',
        }, {
-         label: 'Valid Negative',
+         label: '有效的负反馈数',
          value: '--',
-         tip: 'A negative feedback is valid only if this user has both positive feedback and negative feedback',
+         tip: '只有当此用户同时具有正面反馈和负面反馈时，负面反馈才有效',
        }],
       popularItems: [],
       latestItems: [],

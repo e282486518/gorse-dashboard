@@ -36,7 +36,7 @@ export default {
   props: {
     title: {
       type: String,
-      default: 'System Status',
+      default: '系统状态',
     },
   },
   data() {
