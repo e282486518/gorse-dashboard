@@ -69,7 +69,11 @@ export default {
     this.fetchNodes();
     this.timer = setInterval(this.fetchNodes, 1000);
   },
+  // 这里注意版本，vue2和vue3写法
   beforeUnmount() {
+    this.cancelAutoUpdate();
+  },
+  beforeDestroy() {
     this.cancelAutoUpdate();
   },
   methods: {
@@ -84,6 +88,7 @@ export default {
     },
     cancelAutoUpdate() {
       clearInterval(this.timer);
+      console.log('task.vue cancelAutoUpdate', this.timer);
     },
   },
 };
